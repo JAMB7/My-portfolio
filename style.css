@@ -1,0 +1,74 @@
+/* Import a soft font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+
+  /* soft lo-fi gradient background */
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #1f1f3a);
+
+  color: #f5f5f5;
+  overflow: hidden;
+}
+
+/* soft animated glow in background */
+body::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, rgba(255, 200, 221, 0.15), transparent 60%);
+  animation: floatGlow 6s ease-in-out infinite alternate;
+  z-index: -1;
+}
+
+@keyframes floatGlow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+/* main title */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #ffd6e0;
+  text-shadow: 0 0 10px rgba(255, 182, 193, 0.4);
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* subtitle */
+p {
+  font-size: 1.2rem;
+  color: #cbd5ff;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  opacity: 0.9;
+  animation: fadeIn 3s ease-in-out;
+}
+
+/* soft fade in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
