@@ -1,26 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
-
-  /* soft green lo-fi background */
-  background: linear-gradient(135deg, #b7e4c7, #95d5b2, #74c69d);
-
-  color: #1b1b1b;
+  font-family: 'Comfortaa', sans-serif;
+  color: #fef6ff;
+  height: 100vh;
   overflow: hidden;
+
+  /* lo-fi night gradient */
+  background: linear-gradient(180deg, #0b1026, #1a1b3a, #2a1b3f);
 }
 
-/* soft dreamy glow */
+/* ⭐ star layer */
 body::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 100%;
-  background: radial-gradient(circle at center, rgba(255, 182, 193, 0.25), transparent 60%);
+  background-image:
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(white 1px, transparent 1px),
+    radial-gradient(rgba(255,255,255,0.7) 1px, transparent 1px);
+
+  background-size: 90px 90px, 130px 130px, 170px 170px;
+  background-position: 0 0, 40px 60px, 20px 30px;
+
+  opacity: 0.25;
   z-index: -1;
 }
 
+/* soft glow mist */
+body::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 50% 40%, rgba(255, 182, 255, 0.12), transparent 60%);
+  z-index: -1;
+}
+
+/* center layout */
 header {
   height: 100vh;
   display: flex;
@@ -30,33 +49,28 @@ header {
   text-align: center;
 }
 
-/* pink cute title */
+/* 🌸 IMPORTANT: start hidden (JS controls fade-in) */
+h1, p {
+  opacity: 0;
+}
+
+/* title styling */
 h1 {
-  font-size: 2.6rem;
-  font-weight: 600;
-  color: #ffb6c1;
-  text-shadow: 0 0 10px rgba(255, 182, 193, 0.6);
-  animation: fadeIn 2s ease-in-out;
+  font-size: 2.8rem;
+  font-weight: 500;
+  color: #ffd6ff;
+  text-shadow: 0 0 18px rgba(255, 180, 255, 0.5);
+  margin-bottom: 10px;
 }
 
-/* subtitle */
+/* subtitle styling */
 p {
-  font-size: 1.2rem;
-  color: #2f3e46;
-  margin-top: 10px;
-  letter-spacing: 1.5px;
-  opacity: 0.9;
-  animation: fadeIn 3s ease-in-out;
+  font-size: 1.4rem;
+  color: #bcd4ff;
+  letter-spacing: 1px;
 }
 
-/* fade animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* optional smooth feel if JS doesn't trigger instantly */
+h1, p {
+  transition: opacity 1.5s ease;
 }
