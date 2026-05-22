@@ -8,5 +8,5 @@ A simple digital portfolio website that showcases who I am, my skills, education
 - [Git](https://git-scm.com/)
   
 ## Resources
-[Google fonts](https://fonts.google.com?utm_source=chatgpt.com)
-[Image Placeholders](https://placehold.co)
+- [Google fonts](https://fonts.google.com?utm_source=chatgpt.com)
+- [Image Placeholders](https://placehold.co)
