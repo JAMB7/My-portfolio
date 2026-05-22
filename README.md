@@ -9,4 +9,4 @@ A simple digital portfolio website that showcases who I am, my skills, education
   
 ## Resources
 [Google fonts](https://fonts.google.com?utm_source=chatgpt.com)
-
+[Image Placeholders](https://placehold.co)
