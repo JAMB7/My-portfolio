@@ -92,13 +92,13 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 4rem;
-  color: #ffd6ff;
+  font-size: 2.8rem;
+}
 
-  margin-bottom: 10px;
-
-  text-shadow:
-    0 0 18px rgba(255, 180, 255, 0.5);
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 .hero p {
@@ -127,18 +127,18 @@ h1 {
   max-width: 900px;
 
   margin: auto;
-  padding: 25px 20px;
+  padding: 20px 20px;
 }
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   color: #ffd6ff;
 }
 
 .section p {
   line-height: 1.5;
-  margin: 6px 0;
+  margin: 5px 0;
   color: #e5dcff;
 }
 
