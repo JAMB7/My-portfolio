@@ -1,0 +1,46 @@
+/* =========================
+   CONTACT FORM
+   ========================= */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.08);
+  color: white;
+  font-family: inherit;
+}
+
+.contact-form button {
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background: #ffd6ff;
+  color: #1a1b3a;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  transform: scale(1.03);
+}
+
+/* =========================
+   EDUCATION SECTION (IF USED ON CONTACT PAGE)
+   ========================= */
+.edu-item {
+  margin-bottom: 10px;
+}
+
+.edu-item p {
+  margin: 4px 0;
+  line-height: 1.4;
+}
