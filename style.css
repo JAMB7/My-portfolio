@@ -92,14 +92,12 @@ nav a:hover {
 
   text-align: center;
 
-  padding: 60px 20px;
+  padding: 100px 20px;
 }
 
 h1 {
   font-size: 2.8rem;
   text-shadow: 0 0 10px rgba(255, 200, 255, 0.2);
-
-  margin-top: -40px;
 }
 
 .hero p {
@@ -115,7 +113,7 @@ h1 {
 
   border-radius: 50%;
 
-  margin-top: 15px;
+  margin-top: 30px;
 
   border: 3px solid rgba(255,255,255,0.3);
 
@@ -267,89 +265,5 @@ h2 {
 
   h2 {
     font-size: 1.6rem;
-  }
-} 
- 
-/* =========================
-   HERO STACKED CARD (LO-FI UPGRADE)
-   ========================= */
-
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* new wrapper */
-.hero-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  gap: 10px;
-
-  padding: 20px;
-
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-
-  border-radius: 18px;
-
-  text-align: center;
-}
-
-/* keep your spacing but improve alignment */
-.hero p {
-  margin: 0;
-}
-
-/* =========================
-   MUSIC PLAYER
-   ========================= */
-
-.music-player {
-  margin-top: 15px;
-
-  display: flex;
-  align-items: center;
-  gap: 10px;
-
-  padding: 10px;
-
-  background: rgba(0,0,0,0.25);
-  border-radius: 12px;
-
-  width: fit-content;
-}
-
-.cat {
-  font-size: 1.6rem;
-}
-
-.music-info {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.song-title {
-  font-size: 0.85rem;
-  color: #ffd6ff;
-  margin: 0;
-}
-
-audio {
-  width: 160px;
-}
-
-/* mobile */
-@media (max-width: 768px) {
-
-  .hero-card {
-    width: 100%;
-  }
-
-  audio {
-    width: 120px;
   }
 }
