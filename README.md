@@ -1,6 +1,6 @@
 # Digital Portfolio Website
 
-A simple lofi themed digital portfolio website that showcases who I am, my skills, education and work.
+A simple lofi themed digital portfolio website that showcases who I am, my skills, education, projects and work.
 
 ## Tools
 
