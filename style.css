@@ -13,7 +13,9 @@ body {
   position: relative;
 }
 
-/* stars */
+/* =========================
+   BACKGROUND (KEEP YOURS)
+   ========================= */
 body::before {
   content: "";
   position: fixed;
@@ -31,7 +33,6 @@ body::before {
   z-index: -1;
 }
 
-/* mist glow */
 body::after {
   content: "";
   position: fixed;
@@ -45,7 +46,9 @@ body::after {
   z-index: -1;
 }
 
-/* NAVBAR */
+/* =========================
+   NAVBAR (YOUR VERSION)
+   ========================= */
 nav {
   width: 100%;
   padding: 20px;
@@ -67,7 +70,6 @@ nav ul {
 nav a {
   text-decoration: none;
   color: #fef6ff;
-
   font-size: 0.9rem;
   transition: 0.3s;
 }
@@ -76,7 +78,9 @@ nav a:hover {
   color: #ffd6ff;
 }
 
-/* HERO */
+/* =========================
+   HERO (YOUR SPACING)
+   ========================= */
 .hero {
   min-height: 100vh;
 
@@ -93,12 +97,7 @@ nav a:hover {
 
 h1 {
   font-size: 2.8rem;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
+  text-shadow: 0 0 10px rgba(255, 200, 255, 0.2);
 }
 
 .hero p {
@@ -122,7 +121,9 @@ h1 {
     0 0 25px rgba(255,255,255,0.15);
 }
 
-/* GENERAL SECTIONS */
+/* =========================
+   SECTIONS (YOUR SPACING)
+   ========================= */
 .section {
   max-width: 900px;
 
@@ -130,6 +131,21 @@ h1 {
   padding: 15px 20px;
 }
 
+/* LO-FI UPGRADE (NO SPACING CHANGE) */
+.section {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  border-radius: 16px;
+  transition: 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-2px);
+}
+
+/* =========================
+   HEADINGS (YOUR VALUES)
+   ========================= */
 h2 {
   font-size: 2rem;
   margin-bottom: 4px;
@@ -142,7 +158,9 @@ h2 {
   color: #e5dcff;
 }
 
-/* SKILLS */
+/* =========================
+   SKILLS (UNCHANGED)
+   ========================= */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -159,7 +177,9 @@ h2 {
   backdrop-filter: blur(8px);
 }
 
-/* CONTACT FORM */
+/* =========================
+   CONTACT FORM (UNCHANGED)
+   ========================= */
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -202,12 +222,28 @@ h2 {
   transform: scale(1.03);
 }
 
-/* PAGE SPACING */
+/* =========================
+   PAGE SPACING (YOUR VERSION)
+   ========================= */
 .page-content {
   padding-top: 100px;
 }
 
-/* MOBILE RESPONSIVE */
+/* =========================
+   EDUCATION FIX (UNCHANGED)
+   ========================= */
+.edu-item {
+  margin-bottom: 10px;
+}
+
+.edu-item p {
+  margin: 4px 0;
+  line-height: 1.4;
+}
+
+/* =========================
+   MOBILE (YOUR VERSION)
+   ========================= */
 @media (max-width: 768px) {
 
   h1 {
@@ -230,12 +266,4 @@ h2 {
   h2 {
     font-size: 1.6rem;
   }
-}
-.edu-item {
-  margin-bottom: 10px;
-}
-
-.edu-item p {
-  margin: 4px 0;
-  line-height: 1.4;
 }
