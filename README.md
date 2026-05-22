@@ -1,6 +1,6 @@
 # Digital Portfolio Website
 
-A simple digital portfolio website that showcases who I am, my skills, education, experience, and work.
+A simple digital portfolio website that showcases who I am, my skills, education and work.
 
 ## Tools
 
