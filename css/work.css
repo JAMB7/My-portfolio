@@ -21,3 +21,6 @@
 .projects-grid img:hover {
   transform: scale(1.03);
 }
+body {
+  background: red !important;
+}
