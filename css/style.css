@@ -267,3 +267,12 @@ h2 {
     font-size: 1.6rem;
   }
 }
+a {
+  color: #ffd6ff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #ffffff;
+}
