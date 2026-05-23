@@ -1,77 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<section class="section">
 
-  <title>Work Experience</title>
+  <h2>Projects</h2>
 
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/work.css">
-</head>
+  <!-- PROJECT CARD -->
+  <div class="project-card">
 
-<body>
+    <img src="img/projects/project1.jpg" alt="Project 1">
 
-  <!-- NAVIGATION -->
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="work.html">Work</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+    <h3>Lofi themed portfolio website</h3>
 
-  <!-- PAGE CONTENT -->
-  <main class="page-content">
+    <p>
+      A cozy, lofi-inspired personal website that showcases my work and skills. ✨
+    </p>
 
-    <!-- WORK EXPERIENCE -->
-    <section class="section">
+    <p>
+      Built with: HTML, CSS, JavaScript
+    </p>
 
-      <h2>Recent Work Experience 📈</h2>
+    <p>
+      ◇ View Project:
+      <a href="https://github.com/JAMB7/My-portfolio" target="_blank">
+        View project
+      </a>
+    </p>
 
-      <p>Salon Assistant & Social Media Coordinator – Beauty by Pascalle</p>
-      <p>Koraalrif st #06, Bridge Village</p>
+  </div>
 
-    </section>
+</section>
+.project-card {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(8px);
+  transition: 0.3s ease;
+}
 
-    <!-- PROJECTS -->
-    <section class="section">
+.project-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
 
-      <h2>Projects</h2>
-
-      <div class="projects-grid">
-
-        <!-- Project 1 -->
-        <div class="project-card">
-
-          <img src="img/projects/project1.jpg" alt="Project 1">
-
-          <h3>Lofi themed portfolio website</h3>
-
-          <p>
-            A cozy, lofi-inspired personal website that showcases my work and skills. ✨
-          </p>
-
-          <p>
-            Built with: HTML, CSS, JavaScript
-          </p>
-
-          <p>
-            ◇ View Project:
-            <a href="https://github.com/JAMB7/My-portfolio" target="_blank">
-              View project
-            </a>
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-  <script src="js/script.js"></script>
-</body>
-</html>
+.project-card:hover {
+  transform: translateY(-3px);
+}
