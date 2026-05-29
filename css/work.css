@@ -51,3 +51,6 @@ PROJECTS GRID
 .art-grid img:hover {
   transform: scale(1.03);
 }
+.art-title {
+  color: #ffd6ff;
+}
