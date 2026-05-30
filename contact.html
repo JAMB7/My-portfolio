@@ -66,19 +66,32 @@
 
       <form class="contact-form">
 
-        <h2>Send me a message</h2>
+        <h2 data-i18n="sendMessageTitle">Send me a message</h2>
 
-       <label data-i18n="nameLabel">Name 🖊️</label>
-        <input type="text" placeholder="Your name">
+<label data-i18n="nameLabel">Name 🖊️</label>
+<input
+  type="text"
+  data-i18n-placeholder="namePlaceholder"
+  placeholder="Your name"
+/>
 
-        <label data-i18n="emailLabel">Email 📧</label>
-        <input type="email" placeholder="Your email">
+<label data-i18n="emailLabel">Email 📧</label>
+<input
+  type="email"
+  data-i18n-placeholder="emailPlaceholder"
+  placeholder="Your email"
+/>
 
-        <label data-i18n="messageLabel">Message 💬</label>
-        <textarea rows="6" placeholder="Write your message..."></textarea>
+<label data-i18n="messageLabel">Message 💬</label>
+<textarea
+  rows="6"
+  data-i18n-placeholder="messagePlaceholder"
+  placeholder="Write your message..."
+></textarea>
 
-        <button type="submit" data-i18n="sendButton">Send Message ✨</button>
-
+<button type="submit" data-i18n="sendMessage">
+  Send Message ✨
+</button>
       </form>
 
     </section>
