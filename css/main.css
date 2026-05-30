@@ -187,3 +187,12 @@ a:hover {
 .hero p {
   margin: 2px 0;
 }
+
+/* =========================
+   LISTS INSIDE SECTIONS
+   ========================= */
+.section ul {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #e5dcff;
+}
