@@ -189,6 +189,11 @@ a {
 a:hover {
   color: #ffffff;
 }
+.project-link {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 
 /* =========================
    GLOBAL PAGE OFFSET
@@ -206,7 +211,7 @@ a:hover {
   .profile-pic { width: 140px; height: 140px; }
   nav ul { gap: 15px; }
   h2 { font-size: 1.2rem; }
-  
+
   .lang-btn {
   top: 10px;
   right: 15px;
