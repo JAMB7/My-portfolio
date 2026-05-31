@@ -128,6 +128,17 @@ h2 {
   color: #ffd6ff;
 }
 
+/* =========================
+   H3 (HIGHLIGHTED LIKE H1)
+   ========================= */
+h3 {
+  font-size: 1.8rem; /* same as h1 */
+  font-weight: 700;  /* thicker for emphasis */
+  color: #fef6ff;
+  text-shadow: 0 0 12px rgba(255, 200, 255, 0.35);
+  margin: 10px 0 4px;
+}
+
 .section p {
   line-height: 1.5;
   margin: 2px 0;
@@ -180,6 +191,7 @@ a:hover {
   nav ul { gap: 15px; }
   h2 { font-size: 1.2rem; }
 }
+
 .hero h1 {
   margin-bottom: 2px;
 }
@@ -197,3 +209,4 @@ a:hover {
   line-height: 1.6;
   color: #e5dcff;
 }
+
