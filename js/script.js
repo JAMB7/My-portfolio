@@ -8,7 +8,7 @@ let currentLang = localStorage.getItem("lang") || "en";
 
 function applyLanguage() {
   document.querySelectorAll("[data-en]").forEach(el => {
-    el.textContent = el.getAttribute(`data-${currentLang}`);
+    el.innerHTML = el.getAttribute(`data-${currentLang}`);
   });
 }
 

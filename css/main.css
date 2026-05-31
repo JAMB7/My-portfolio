@@ -153,6 +153,10 @@ h3 {
   margin: 2px 0;
   color: #e5dcff;
 }
+.section p span {
+  display: block;
+  margin-bottom: 6px;
+}
 
 /* =========================
    SKILLS
