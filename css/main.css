@@ -134,7 +134,7 @@ h2 {
 
 /* ADDED H3 */
 h3 {
-  font-size: 0.9rem;       /* same feel as h2 */
+  font-size: 1.0rem;       /* same feel as h2 */
   margin-bottom: 4px;
   color: #ffd6ff;          /* same accent as h2 */
 }
