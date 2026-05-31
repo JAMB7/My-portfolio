@@ -1,3 +1,7 @@
+/* =========================
+ main css file for the portfolio website
+=========================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap');
 
 /* =========================
@@ -128,15 +132,13 @@ h2 {
   color: #ffd6ff;
 }
 
-/* =========================
-   H3 (HIGHLIGHTED LIKE H1)
-   ========================= */
+/* ADDED H3 */
 h3 {
-  font-size: 1.8rem; /* same as h1 */
-  font-weight: 700;  /* thicker for emphasis */
-  color: #fef6ff;
-  text-shadow: 0 0 12px rgba(255, 200, 255, 0.35);
-  margin: 10px 0 4px;
+  font-size: 1.4rem;       /* same feel as h2 */
+  margin-bottom: 4px;
+  color: #ffd6ff;          /* same accent as h2 */
+  font-weight: 700;        /* thicker highlight */
+  text-shadow: 0 0 8px rgba(255, 214, 255, 0.15);
 }
 
 .section p {
