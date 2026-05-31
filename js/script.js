@@ -10,6 +10,8 @@ function applyLanguage() {
   document.querySelectorAll("[data-en]").forEach(el => {
     el.textContent = el.getAttribute(`data-${currentLang}`);
   });
+
+  updateLangButton(); // update EN/NL button text
 }
 
 function switchLanguage() {
@@ -19,7 +21,18 @@ function switchLanguage() {
 }
 
 /* =========================
-   PAGE LOAD (ANIMATIONS + INIT)
+   LANGUAGE BUTTON TEXT
+   ========================= */
+
+function updateLangButton() {
+  const btn = document.getElementById("langBtn");
+  if (btn) {
+    btn.textContent = currentLang.toUpperCase(); // EN or NL only
+  }
+}
+
+/* =========================
+   PAGE LOAD (ANIMATION + INIT)
    ========================= */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -36,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 200);
   }
 
-  // APPLY SAVED LANGUAGE ON PAGE LOAD
+  // APPLY SAVED LANGUAGE ON LOAD
   applyLanguage();
 
 });
