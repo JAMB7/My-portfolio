@@ -206,18 +206,23 @@ a:hover {
    MOBILE
    ========================= */
 @media (max-width: 768px) {
+
   h1 { font-size: 1.5rem; }
   .hero p { font-size: 1rem; }
   .profile-pic { width: 140px; height: 140px; }
   nav ul { gap: 15px; }
-  h2 { font-size: 1.2rem; }
+
+  h2 {
+    font-size: 1.2rem;
+  }
 
   .lang-btn {
-  top: 10px;
-  right: 30px;
-  font-size: 0.8rem;
-  padding: 6px 10px;
-}
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
 }
 
 .hero h1 {
