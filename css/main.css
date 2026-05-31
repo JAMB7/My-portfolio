@@ -137,7 +137,7 @@ h3 {
   font-size: 1.4rem;       /* same feel as h2 */
   margin-bottom: 4px;
   color: #ffd6ff;          /* same accent as h2 */
-  font-weight: 700;        /* thicker highlight */
+  font-weight: 200;        /* thicker highlight */
   text-shadow: 0 0 8px rgba(255, 214, 255, 0.15);
 }
 
