@@ -18,7 +18,11 @@ function switchLanguage() {
   applyLanguage();
 }
 
-window.addEventListener("load", () => {
+/* =========================
+   PAGE LOAD (ANIMATIONS + INIT)
+   ========================= */
+
+document.addEventListener("DOMContentLoaded", () => {
 
   // HERO FADE ANIMATION
   const hero = document.querySelector(".hero");
